@@ -53,6 +53,26 @@ html {
     letter-spacing: 3rem;
 }
 
+.heading-1 {
+    animation: animateHeading 12s 3s infinite;
+
+}
+
+.heading-2 {
+    animation: animateHeading 12s 6s infinite;
+
+}
+
+.heading-3 {
+    animation: animateHeading 12s 9s infinite;
+
+}
+
+.heading-4 {
+    animation: animateHeading 12s 12s infinite;
+
+}
+
 @keyframes animateHeading {
     0% {
         transform: translateZ(8rem);
