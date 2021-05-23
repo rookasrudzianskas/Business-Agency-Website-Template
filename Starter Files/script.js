@@ -16,9 +16,11 @@ const playPause = () => {
     if(video.paused) {
     video.play()
     btn.className = 'far fa-pause-circle'
+        video.style.opacity = '0.7'
     } else {
         video.pause()
         btn.className = 'far fa-play-circle'
+        video.style.opacity = '0.3'
     }
 }
 

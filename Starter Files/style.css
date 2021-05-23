@@ -331,6 +331,7 @@ html {
     height: 100%;
     object-fit: cover;
     opacity: 0.3;
+    transition: opacity 0.3s;
 }
 
 .controls {
@@ -357,7 +358,7 @@ html {
 
 .video-bar {
     height: 100%;
-    width: 20%;
+    width: 0;
     background-color: #d30819;
 }
 
