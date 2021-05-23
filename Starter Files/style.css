@@ -339,6 +339,11 @@ html {
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.7);
     transform: translateY(calc(100% - 0.4rem));
+    transition: transform 0.4s;
+}
+
+.video-wrapper:hover .controls {
+    transform: translateY(0);
 }
 
 .video-bar-wrapper {
