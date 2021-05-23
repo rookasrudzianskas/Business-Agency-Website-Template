@@ -30,4 +30,10 @@ btn.addEventListener('click', () => {
 
 video.addEventListener('timeupdate', () => {
     console.log(video.currentTime, video.duration)
+    const barWidth = video.currentTime / video.duration
+    bar.style.width = `${barWidth * 100}%`
+    if(video.ended) {
+        btn.className = 'far fa-play-circle'
+        video.style.opacity = '0.3'
+    }
 })
