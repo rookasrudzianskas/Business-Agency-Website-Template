@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
     <title>Business agency</title>
 </head>
@@ -76,7 +78,8 @@
         <section class="section-3">
             <h1 class="section-heading">Pricing</h1>
             <div class="section-heading-line"></div>
-            <div class="pricing-cards-wrapper">
+            <div class="swiper-container">
+            <div class="pricing-cards-wrapper swiper-wrapper">
                 <div class="pricing-card">
                     <div class="pricing-card-front">
                         <h1 class="pricing-card-heading heading-free">FREE</h1>
@@ -117,7 +120,7 @@
                     </div>
                 </div>
 
-                <div class="pricing-card">
+                <div class="pricing-card swiper-slide">
                     <div class="pricing-card-front">
                         <h1 class="pricing-card-heading heading-basic">Basic</h1>
                         <h3 class="pricing-card-price">$299</h3>
@@ -157,7 +160,7 @@
                     </div>
                 </div>
 
-                <div class="pricing-card">
+                <div class="pricing-card swiper-slide">
                     <div class="pricing-card-front">
                         <h1 class="pricing-card-heading heading-standard">STANDARD</h1>
                         <h3 class="pricing-card-price">$699</h3>
@@ -198,7 +201,7 @@
                 </div>
 
 
-                <div class="pricing-card">
+                <div class="pricing-card swiper-slide">
                     <div class="pricing-card-front">
                         <h1 class="pricing-card-heading heading-premium">PREMIUM</h1>
                         <h3 class="pricing-card-price">$999</h3>
@@ -247,8 +250,11 @@
 
 
             </div>
+            </div>
         </section>
     </div>
 <script src="script.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+
 </body>
 </html>

@@ -422,15 +422,16 @@ html {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+    padding: 5rem;
+
 }
 
 .pricing-card {
-    width: 28rem;
-    height: 45rem;
+    width: 28rem !important;
+    height: 45rem !important;
     background-color: #181b1b;
     border-radius: 1rem;
     box-shadow: 2rem 2rem 6rem rgba(0, 0, 0, 0.7);
-    transform: rotateY(180deg);
 }
 
 .pricing-card-front {
