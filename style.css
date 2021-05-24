@@ -430,6 +430,7 @@ html {
     background-color: #181b1b;
     border-radius: 1rem;
     box-shadow: 2rem 2rem 6rem rgba(0, 0, 0, 0.7);
+    transform: rotateY(180deg);
 }
 
 .pricing-card-front {
@@ -479,11 +480,99 @@ html {
     color: #fff;
 }
 
+.pricing-card-list li {
+    margin-bottom: 0.5rem;
+}
 
+.list-free li {
+    color: #0da5d3;
+}
 
+.list-basic li {
+    color: #bdba0e;
+}
 
+.list-standard li {
+    color: #e23b3b;
+}
 
+.list-premium li {
+    color: #3be286;
+}
 
+.pricing-card-list i {
+    font-size: 1.8rem;
+    width: 3rem;
+}
+
+.pricing-card-list span {
+    font-size: 1.8rem;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+}
+
+.pricing-card-btn {
+    width: 18rem;
+    height: 5rem;
+    margin-bottom: 3rem;
+    border-radius: 3rem;
+    border: none;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 0.3rem 0.3rem 0.6rem rgba(0, 0, 0, 0.5);
+}
+
+.btn-free {
+    background-color: #0da5d3;
+}
+
+.btn-basic {
+    background-color: #bdba0e;
+}
+
+.btn-standard {
+    background-color: #e23b3b;
+}
+
+.btn-premium {
+    background-color: #3be286;
+}
+
+.pricing-card-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    transform: rotateY(180deg);
+    border-radius: 1rem;
+}
+
+.back-free {
+    background: linear-gradient(to right, #087285, #0da5d3);
+}
+
+.back-basic {
+    background: linear-gradient(to right, #946809, #bdba0e);
+}
+
+.back-standard {
+    background: linear-gradient(to right, #a10c14, #e23b3b);
+}
+
+.back-premium {
+    background: linear-gradient(to right, #0b7e48, #3be286);
+}
+
+.pricing-card-back a {
+    font-size: 2.5rem;
+    color: #fff;
+}
 
 
 
