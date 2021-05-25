@@ -575,6 +575,97 @@ html {
 }
 
 
+.section-4 {
+    width: 100%;
+    height: 100vh;
+    background-color: #171718;
+    display: flex;
+    align-items: center;
+    padding: 0 10rem;
+
+}
+
+.contact-wrapper {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-details {
+    display: flex;
+    margin-bottom: 8rem;
+
+}
+
+.contact-details div {
+    width: 25rem;
+    text-align: center;
+    margin: 4rem;
+}
+
+.contact-details i {
+    font-size: 5rem;
+    color: #7a1010;
+}
+
+.contact-details h3 {
+    font-family: "MADE Soulmaze", serif;
+    font-size: 2.5rem;
+    margin: 2rem 0;
+    color: #ccc;
+
+}
+
+.contact-details p {
+    font-size: 1.6rem;
+    color: #aaa;
+}
+
+.contact-wrapper h1 {
+    font-size: 4rem;
+    color: #ccc;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+
+}
+
+.contact-form {
+    width: 70rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 1.5rem;
+    background-color: #444;
+    color: #eee;
+    border: none;
+    margin-bottom: 2rem;
+    font-family: "Oswald", serif;
+    font-size: 1.8rem;
+    font-weight: 300;
+    letter-spacing: .1rem;
+
+}
+
+.contact-form textarea {
+    max-width: 100%;
+    max-height: 15rem;
+    min-height: 5.5rem;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #7a1010;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.contact-form input[type="submit"]:hover {
+    background-color: #5f0303;
+}
+
+
 
 
 
