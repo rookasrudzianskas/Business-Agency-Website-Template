@@ -664,7 +664,33 @@ html {
 .contact-form input[type="submit"]:hover {
     background-color: #5f0303;
 }
+.footer {
+    width: 100%;
+    height: 12rem;
+    background-color: #202122;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10rem;
+}
 
+.footer-nav a {
+    font-family: "MADE Soulmaze", serif;
+    font-size: 2rem;
+    color: #ccc;
+    margin-right: 3rem;
+    letter-spacing: 0.1rem;
+    transition: color .3s;
+}
+
+.footer-nav a:hover {
+    color: #862323;
+}
+
+.copyright {
+    font-size: 2rem;
+    color: #ddd;
+}
 
 
 
