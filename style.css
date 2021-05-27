@@ -693,6 +693,184 @@ html {
     color: #ddd;
 }
 
+@media(max-width: 1800px) {
+    .video-wrapper {
+        width: 90rem;
+        height: 45rem;
+        right: 10rem;
+    }
+
+    .section-2-paragraph {
+        width: 90rem;
+        height: 10rem;
+    }
+
+    .section-3. .section-heading-line {
+        margin-right: 3rem;
+    }
+}
+
+@media(max-width: 1650px) {
+    html {
+        font-size: 75%;
+
+    }
+
+    .video-wrapper {
+        width: 85rem;
+        height: 40rem;
+        right: 5rem;
+    }
+
+    .section-2-paragraph {
+        width: 85rem;
+        height: 5rem;
+        bottom:  10rem;
+    }
+}
+
+@media(max-width: 1500px) {
+    .section-heading-line {
+        display: none;
+    }
+}
+
+@media(max-width: 140px) {
+    html {
+        font-size: 45%;
+    }
+
+    .banner-heading span {
+        font-size:10rem;
+    }
+
+    .banner-paragraph {
+        width: 45rem;
+        font-size: 3rem;
+    }
+
+    .section-2, .section-3, .section-4 {
+        flex-direction: column;
+    }
+
+    .section-2 {
+        height: 120vh;
+
+    }
+
+    .video-wrapper {
+        top: 20%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80%;
+
+    }
+
+    .section-2-paragraph {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80%;
+    }
+    .section-3 {
+        height: auto;
+        padding: 5rem 0 10rem 0;
+
+    }
+
+    .section-3 .section-heading {
+        margin-bottom: 7rem;
+    }
+
+    .swiper-container {
+        width: 100%;
+    }
+
+    .section-4 {
+        height: auto;
+        padding: 5rem 0;
+    }
+}
+
+@media (min-width: 900px) {
+    html {
+        font-size: 40%;
+
+    }
+
+    .banner {
+        top: 25%;
+    }
+
+    .banner-heading {
+        height: 15rem;
+    }
+
+    .banner-heading span {
+        font-size: 8rem;
+    }
+
+    .footer {
+        padding: 0 5rem;
+
+    }
+
+    .footer-nav a {
+        font-size: 1.8rem;
+    }
+}
+
+@media (min-width: 700px) {
+    html {
+        font-size: 35%;
+    }
+
+    .section-2 {
+        height: 100vh;
+    }
+
+    .contact-details div {
+        margin: 3rem 2rem;
+    }
+
+    .footer {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer-nav {
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 500px) {
+    html {
+        font-size: 30%;
+    }
+
+    .banner-heading span {
+        font-size: 4.5rem;
+        letter-spacing: 2rem;
+
+
+    }
+
+    .video-wrapper{
+    width:60rem;
+    }
+
+    .section-2-paragraph div {
+        width: 18rem;
+        margin: 3rem 1rem;
+    }
+
+    .contact-form {
+        width: 17rem;
+    }
+
+
+}
+
+
 
 
 
